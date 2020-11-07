@@ -40,7 +40,7 @@ saveScoreBtn.addEventListener('click', e => {
         listScore.push(scoreInfo);
         console.log(listScore);
         localStorage.setItem('listScore', JSON.stringify(listScore));
-        window.location.assign('../index.html');
+        window.location.assign('index.html');
 
     }
 
