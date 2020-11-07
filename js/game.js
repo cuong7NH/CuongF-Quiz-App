@@ -169,7 +169,7 @@ choiceAnswer = () => {
             }, 500)
 
             if(indexQuestion >= questions.length) {
-                location.assign("end.html");
+                window.location.assign("../end.html");
 
                 window.localStorage.setItem('score', JSON.stringify(score));
             }
