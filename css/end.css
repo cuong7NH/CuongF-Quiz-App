@@ -1,0 +1,11 @@
+
+
+
+
+input#userName {
+    width: 30rem;
+    font-size: 2rem;
+    padding: 1rem 2rem;
+    margin-bottom: 2rem;
+    text-transform: capitalize;
+}

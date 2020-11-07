@@ -1,0 +1,22 @@
+
+
+ul#listHighScore {
+    list-style: none;
+}
+
+ul#listHighScore li {
+    font-size: 2rem;
+    color: #fff;
+    margin-bottom: 2rem;
+}
+ul#listHighScore li span {
+    font-size: 2rem;
+    display: inline-block;
+}
+
+ul#listHighScore li span#name {
+    min-width: 150px;
+}
+ul#listHighScore li span#score {
+    margin-left: 20px;
+}
